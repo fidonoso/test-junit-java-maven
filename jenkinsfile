@@ -11,8 +11,7 @@ pipeline {
             steps {
                 sh 'mkdir -p src/main/resources'
             }
-        }
-        
+        }        
         stage('Checkout') {
             steps {
                 git 'https://github.com/fidonoso/test-junit-java-maven.git'
