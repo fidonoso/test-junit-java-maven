@@ -143,3 +143,6 @@ mvn clean
 mvn test
 ```
 Este comando compilará el código de producción y de prueba, y luego ejecutará todas las pruebas unitarias definidas en el proyecto.
+
+## Jenkinsfile
+- Utiliza un agente docker para ejecutar las pruebas
