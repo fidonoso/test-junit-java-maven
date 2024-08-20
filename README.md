@@ -146,3 +146,5 @@ Este comando compilará el código de producción y de prueba, y luego ejecutar�
 
 ## Jenkinsfile
 - Utiliza un agente docker para ejecutar las pruebas
+- La etapa 'Prepare Workspace': El proyecto no requiere ningún recurso adicional. Si  Maven simplemente no encuentra ese directorio lanza una advertencia y continúa con la construcción.
+- Etapa 'Build & Test': Ejecuta `mvn clean test`
