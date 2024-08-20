@@ -1,7 +1,6 @@
 pipeline {
     agent {
-        label 'inbound-agent' 
-     
+        label 'inbound-agent' //agente docker     
     }
     environment {
         JAVA_HOME = '/opt/jdk-22'
